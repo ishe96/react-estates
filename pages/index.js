@@ -5,8 +5,6 @@ import { Flex, Box, Text, Button } from "@chakra-ui/react";
 import Property from "../components/Property";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
 
-// apiApp key = dd1bad2630mshb3c0a8749f7eb4bp1d33f8jsn354d58ac554d
-
 const Banner = ({
     purpose,
     title1,
