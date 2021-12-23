@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 const Footer = () => (
     <Box
@@ -8,7 +8,8 @@ const Footer = () => (
         borderTop="1px"
         borderColor="gray.100"
     >
-        2021 NamEstates, Inc.
+        
+        2021 NamEstates<Text marginTop='1'>• Ishe Demos •</Text>
     </Box>
 );
 
